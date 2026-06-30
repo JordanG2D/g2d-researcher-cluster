@@ -139,8 +139,9 @@ This repository shows one early origin point of that direction.
 4. [`docs/lessons-learned.md`](docs/lessons-learned.md)
 5. [`docs/evolution-to-orion.md`](docs/evolution-to-orion.md)
 6. [`docs/import-notes.md`](docs/import-notes.md)
-7. [`examples/sample-run.md`](examples/sample-run.md)
-8. [`examples/sample-report.md`](examples/sample-report.md)
+7. [`docs/validation.md`](docs/validation.md)
+8. [`examples/sample-run.md`](examples/sample-run.md)
+9. [`examples/sample-report.md`](examples/sample-report.md)
 
 ---
 
