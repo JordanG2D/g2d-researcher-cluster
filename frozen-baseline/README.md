@@ -2,7 +2,7 @@
 
 **Role:** Immutable reference snapshot  
 **Original source:** `G2-Researcher_v1.0_FROZEN`  
-**Status:** Historical component placeholder
+**Status:** Historical component with sanitized source import
 
 The frozen baseline represents the first known-good G2 Researcher v1.0 engine.
 
@@ -27,9 +27,9 @@ It provided:
 
 ## Why this folder exists
 
-This folder is reserved for importing or adapting the original frozen baseline artifact.
+This folder preserves the sanitized public archival material from the original frozen baseline artifact.
 
-The first narrative pass intentionally does not import source code automatically. A later development pass should review the original repository, remove anything unnecessary or sensitive, and copy only the safe public artifact material into this folder.
+The original source README is preserved as `SOURCE_README.md`. Import-specific context and exclusions are documented in `NOTES.md`.
 
 ---
 

@@ -2,7 +2,7 @@
 
 **Role:** Active experimentation lane  
 **Original source:** `G2-Researcher_v1.0_DEV`  
-**Status:** Historical component placeholder
+**Status:** Historical component with sanitized source import
 
 The development branch represented the working lane for improving the original researcher engine after the frozen baseline was preserved.
 
@@ -25,9 +25,9 @@ It was the place for:
 
 ## Why this folder exists
 
-This folder is reserved for importing or adapting the original DEV artifact.
+This folder preserves the sanitized public archival material from the original DEV artifact.
 
-The first narrative pass intentionally creates structure before code import. A later development pass should review the source material and decide what belongs in the public consolidated artifact.
+The original source README is preserved as `SOURCE_README.md`. Import-specific context and exclusions are documented in `NOTES.md`.
 
 ---
 

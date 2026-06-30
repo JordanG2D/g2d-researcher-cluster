@@ -38,18 +38,30 @@ g2d-researcher-cluster/
     evolution-to-orion.md
   frozen-baseline/
     README.md
+    NOTES.md
+    SOURCE_README.md
+    ...
   dev-branch/
     README.md
+    NOTES.md
+    SOURCE_README.md
+    ...
   agent-b-quant-explorer/
     README.md
+    NOTES.md
+    SOURCE_README.md
+    ...
   agent-c-synthesis-engine/
     README.md
+    NOTES.md
+    SOURCE_README.md
+    ...
   examples/
     sample-run.md
     sample-report.md
 ```
 
-The code folders are intentionally skeletal at this stage. The purpose of this first public pass is to define the architecture and narrative before importing or adapting source artifacts.
+The component folders now include sanitized public archival source material from the original split repositories. Each folder keeps this repository's narrative `README.md`, the original source repository README as `SOURCE_README.md`, and a short `NOTES.md` describing archival context and exclusions.
 
 ---
 
@@ -126,8 +138,9 @@ This repository shows one early origin point of that direction.
 3. [`docs/architecture.md`](docs/architecture.md)
 4. [`docs/lessons-learned.md`](docs/lessons-learned.md)
 5. [`docs/evolution-to-orion.md`](docs/evolution-to-orion.md)
-6. [`examples/sample-run.md`](examples/sample-run.md)
-7. [`examples/sample-report.md`](examples/sample-report.md)
+6. [`docs/import-notes.md`](docs/import-notes.md)
+7. [`examples/sample-run.md`](examples/sample-run.md)
+8. [`examples/sample-report.md`](examples/sample-report.md)
 
 ---
 
