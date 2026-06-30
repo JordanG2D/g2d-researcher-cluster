@@ -22,6 +22,8 @@ The early cluster used a baseline engine, an active development branch, and spec
 
 This repo is intended to show lineage, design intent, and lessons learned. The current active systems are maintained elsewhere in private lab infrastructure.
 
+The imported application code is preserved for historical review. It should not be treated as a maintained runnable product or used with live credentials without review.
+
 ---
 
 ## What this repository contains

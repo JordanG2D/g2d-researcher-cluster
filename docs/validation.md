@@ -29,3 +29,5 @@ Secret patterns checked included common API key, GitHub token, AWS key, and priv
 No credential files, API keys, tokens, private keys, runtime logs, generated Python caches, TypeScript build cache files, or live deployment configuration were included in the consolidated archive.
 
 The imported code remains historical source material. It is not current G2D, Orion, Black Box Lab production infrastructure, or any current private system.
+
+The imported application code is preserved for historical review. It should not be treated as a maintained runnable product or used with live credentials without review.
