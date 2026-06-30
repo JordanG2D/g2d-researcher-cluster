@@ -2,7 +2,7 @@
 
 **Role:** Synthesis and meta-analysis variant  
 **Original source:** `G2-Researcher_v1.0_AGENT_C`  
-**Status:** Historical component placeholder
+**Status:** Historical component with sanitized source import
 
 Agent C represented the second specialized fork of the original G2 Researcher system.
 
@@ -48,6 +48,8 @@ Known risks:
 ---
 
 ## Dev handoff notes
+
+The original source README is preserved as `SOURCE_README.md`. Import-specific context and exclusions are documented in `NOTES.md`.
 
 When importing source material:
 

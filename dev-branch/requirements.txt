@@ -1,0 +1,8 @@
+google-genai
+anthropic
+modal
+python-dotenv
+rich
+fastapi
+uvicorn[standard]
+python-dotenv

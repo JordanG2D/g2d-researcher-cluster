@@ -22,6 +22,8 @@ The early cluster used a baseline engine, an active development branch, and spec
 
 This repo is intended to show lineage, design intent, and lessons learned. The current active systems are maintained elsewhere in private lab infrastructure.
 
+The imported application code is preserved for historical review. It should not be treated as a maintained runnable product or used with live credentials without review.
+
 ---
 
 ## What this repository contains
@@ -38,18 +40,30 @@ g2d-researcher-cluster/
     evolution-to-orion.md
   frozen-baseline/
     README.md
+    NOTES.md
+    SOURCE_README.md
+    ...
   dev-branch/
     README.md
+    NOTES.md
+    SOURCE_README.md
+    ...
   agent-b-quant-explorer/
     README.md
+    NOTES.md
+    SOURCE_README.md
+    ...
   agent-c-synthesis-engine/
     README.md
+    NOTES.md
+    SOURCE_README.md
+    ...
   examples/
     sample-run.md
     sample-report.md
 ```
 
-The code folders are intentionally skeletal at this stage. The purpose of this first public pass is to define the architecture and narrative before importing or adapting source artifacts.
+The component folders now include sanitized public archival source material from the original split repositories. Each folder keeps this repository's narrative `README.md`, the original source repository README as `SOURCE_README.md`, and a short `NOTES.md` describing archival context and exclusions.
 
 ---
 
@@ -126,8 +140,10 @@ This repository shows one early origin point of that direction.
 3. [`docs/architecture.md`](docs/architecture.md)
 4. [`docs/lessons-learned.md`](docs/lessons-learned.md)
 5. [`docs/evolution-to-orion.md`](docs/evolution-to-orion.md)
-6. [`examples/sample-run.md`](examples/sample-run.md)
-7. [`examples/sample-report.md`](examples/sample-report.md)
+6. [`docs/import-notes.md`](docs/import-notes.md)
+7. [`docs/validation.md`](docs/validation.md)
+8. [`examples/sample-run.md`](examples/sample-run.md)
+9. [`examples/sample-report.md`](examples/sample-report.md)
 
 ---
 
