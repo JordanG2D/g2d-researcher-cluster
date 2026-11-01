@@ -2,7 +2,7 @@
 
 **Historical artifact documenting the original G2D autonomous researcher cluster and its evolution toward modern AI infrastructure.**
 
-This repository preserves the first public generation of the Gen 2 Dynamics autonomous researcher architecture. It is not the current private production lab. It is an engineering artifact: a readable, reusable snapshot of the early multi-agent research pattern that helped shape later G2D systems such as Orion, the Black Box Lab, and the broader control-plane architecture.
+This repository preserves the first public generation of the Gen 2 Dynamics autonomous researcher architecture. It is not current Gen 2 Dynamics software. It is an engineering artifact: a readable, reusable snapshot of an early multi-agent research pattern.
 
 The original researcher system was built around a simple idea:
 
@@ -20,7 +20,7 @@ The early cluster used a baseline engine, an active development branch, and spec
 **Origin:** G2 Researcher v1.0 lineage  
 **Maintainer:** JordanG2D / Gen 2 Dynamics
 
-This repo is intended to show lineage, design intent, and lessons learned. The current active systems are maintained elsewhere in private lab infrastructure.
+This repo is intended to show lineage, design intent, and lessons learned. Current Gen 2 Dynamics work is not published here.
 
 The imported application code is preserved for historical review. It should not be treated as a maintained runnable product or used with live credentials without review.
 
@@ -37,7 +37,6 @@ g2d-researcher-cluster/
     lineage.md
     philosophy.md
     lessons-learned.md
-    evolution-to-orion.md
   frozen-baseline/
     README.md
     NOTES.md
@@ -88,8 +87,6 @@ Specialized variants
       └── AGENT_C: synthesis engine
       ↓
 Lessons learned
-      ↓
-Evolution toward Orion and modern G2D lab infrastructure
 ```
 
 ---
@@ -106,8 +103,6 @@ It documents an early operating pattern:
 - compare behaviors across variants
 - keep research artifacts separate from production systems
 - treat agent evolution as something that should leave evidence
-
-That pattern later influenced G2D's current emphasis on validation workflows, control-plane infrastructure, audit trails, reporting lanes, and reproducible system behavior.
 
 ---
 
@@ -127,9 +122,7 @@ The original researcher cluster was guided by a few principles that remain centr
 
 This repository is part of the public artifact trail for Gen 2 Dynamics.
 
-The current G2D direction is broader than the original researcher cluster. Today the work centers on AI-native control-plane infrastructure, validation workflows, autonomous systems research, deterministic execution, auditability, and pilot-grade lab operations.
-
-This repository shows one early origin point of that direction.
+Gen 2 Dynamics now builds Nexus, a control layer for AI agents that do accountable work. This repository is an early research prototype and is not part of Nexus.
 
 ---
 
@@ -139,11 +132,10 @@ This repository shows one early origin point of that direction.
 2. [`docs/lineage.md`](docs/lineage.md)
 3. [`docs/architecture.md`](docs/architecture.md)
 4. [`docs/lessons-learned.md`](docs/lessons-learned.md)
-5. [`docs/evolution-to-orion.md`](docs/evolution-to-orion.md)
-6. [`docs/import-notes.md`](docs/import-notes.md)
-7. [`docs/validation.md`](docs/validation.md)
-8. [`examples/sample-run.md`](examples/sample-run.md)
-9. [`examples/sample-report.md`](examples/sample-report.md)
+5. [`docs/import-notes.md`](docs/import-notes.md)
+6. [`docs/validation.md`](docs/validation.md)
+7. [`examples/sample-run.md`](examples/sample-run.md)
+8. [`examples/sample-report.md`](examples/sample-report.md)
 
 ---
 

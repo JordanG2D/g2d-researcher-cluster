@@ -83,7 +83,7 @@ Its value came from what it revealed:
 - observability is not optional
 - evaluation should be designed into the workflow
 
-Those lessons informed the move toward deeper research infrastructure and the later Orion direction.
+Those lessons shaped how the project thought about research infrastructure.
 
 ---
 

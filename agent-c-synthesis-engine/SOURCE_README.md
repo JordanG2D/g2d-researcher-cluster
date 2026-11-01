@@ -2,7 +2,7 @@
 
 **Status:** Variant Engine  
 **Created:** Cloned from DEV on Nov 29, 2025  
-**Location:** Black Box Lab – G2 Dynamics
+**Location:** G2 Dynamics
 
 AGENT_C is the **second specialized fork** of the G2 Researcher system.
 

@@ -173,7 +173,7 @@ The original cluster made several lessons obvious:
 - synthesis needs source evidence
 - orchestration becomes more important as agents multiply
 
-These lessons later pushed G2D toward stronger control-plane thinking, workflow ledgers, report lanes, validation bundles, and the deeper Orion research direction.
+These lessons pointed toward stronger orchestration, run records and validation.
 
 ---
 
@@ -181,4 +181,4 @@ These lessons later pushed G2D toward stronger control-plane thinking, workflow 
 
 This repository currently documents the architecture and provides a skeleton for future code import.
 
-It is intentionally not claiming to be the active G2D lab or the current Orion implementation.
+It is intentionally not claiming to be current Gen 2 Dynamics software.

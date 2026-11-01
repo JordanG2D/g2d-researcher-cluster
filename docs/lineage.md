@@ -113,13 +113,11 @@ This consolidated repo makes the lineage readable:
 
 ## What this repo is not
 
-This repo is not the current G2D private lab.
+This repo is not current Gen 2 Dynamics software.
 
 It is not a full production release.
 
-It is not intended to expose proprietary current infrastructure.
-
-It is a preserved public artifact showing how the first researcher cluster was organized and what it taught the lab.
+It is a preserved public artifact showing how the first researcher cluster was organized and what it taught.
 
 ---
 
@@ -127,6 +125,4 @@ It is a preserved public artifact showing how the first researcher cluster was o
 
 This repo is a public evidence trail.
 
-It shows that the current G2D emphasis on validation, auditability, deterministic execution, report lanes, and control-plane infrastructure did not appear out of nowhere.
-
-Those ideas grew out of early experiments with autonomous researcher systems.
+It shows how an early autonomous researcher system was organized and what its builders learned from it.
