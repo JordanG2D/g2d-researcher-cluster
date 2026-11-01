@@ -2,7 +2,7 @@
 
 **Status:** Immutable Snapshot  
 **Created:** Nov 29, 2025  
-**Location:** Black Box Lab – G2 Dynamics
+**Location:** G2 Dynamics
 
 This repository contains the **frozen, untouched baseline** of the G2 Researcher v1.0 engine.
 

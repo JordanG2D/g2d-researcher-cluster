@@ -30,4 +30,4 @@ The archive preserves historical environment-variable references in code because
 
 ## Scope boundary
 
-This is historical archival material from the original public G2 Researcher v1.0 lineage. It is not Orion, not the current G2D private lab, not current Black Box Lab production infrastructure, and not a release of any current private system.
+This is historical archival material from the original public G2 Researcher v1.0 lineage. It is not current Gen 2 Dynamics software.

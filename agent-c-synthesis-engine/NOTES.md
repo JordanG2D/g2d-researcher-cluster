@@ -6,4 +6,4 @@ The import keeps the original application structure and source files for histori
 
 Environment files were not imported. The historical code still references model and sandbox environment variable names, but no credential file or secret value is included.
 
-The source material shows Agent C primarily as a role-specific fork and README-level direction toward synthesis and meta-analysis. The archived code should be read as an early variant artifact, not as current Orion, Donna, or private report infrastructure.
+The source material shows Agent C primarily as a role-specific fork and README-level direction toward synthesis and meta-analysis. The archived code should be read as an early variant artifact, not as current Gen 2 Dynamics software.

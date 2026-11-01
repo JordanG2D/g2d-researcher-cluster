@@ -2,7 +2,7 @@
 
 **Status:** Live Development  
 **Created:** Cloned from Frozen v1.0 on Nov 29, 2025  
-**Location:** Black Box Lab – G2 Dynamics
+**Location:** G2 Dynamics
 
 This is the **primary development environment** for G2 Researcher.  
 All upgrades, refactors, experiments, and feature expansion begin here.

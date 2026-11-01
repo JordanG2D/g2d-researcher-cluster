@@ -59,7 +59,7 @@ But the system still needs a way to decide:
 - how disagreements are recorded
 - when a run is considered complete
 
-This lesson pointed toward the need for a stronger control plane.
+This lesson pointed toward the need for stronger orchestration and run records.
 
 ---
 
@@ -73,7 +73,7 @@ Reports are part of the system architecture.
 
 A report defines what the workflow believed mattered enough to preserve. It creates a durable interface between the run and the human operator.
 
-This eventually led to stronger report-shaped agent thinking and the Donna direction.
+This led to stronger report-shaped thinking about agent output.
 
 ---
 
