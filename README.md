@@ -2,9 +2,11 @@
 
 **Historical artifact documenting the original G2D autonomous researcher cluster and its evolution toward modern AI infrastructure.**
 
-This repository preserves the first public generation of the Gen 2 Dynamics autonomous researcher architecture. It is not current Gen 2 Dynamics software. It is an engineering artifact: a readable, reusable snapshot of an early multi-agent research pattern.
+This repository preserves the G2 Researcher v1.0 lineage: four snapshots of an open-source autonomous researcher that Gen 2 Dynamics forked and organized by role in November 2025. It is not current Gen 2 Dynamics software. It is an engineering artifact: a readable snapshot of an early multi-agent research pattern.
 
-The original researcher system was built around a simple idea:
+The researcher engine itself (orchestrator, agents, API server and frontend) is [AI Researcher](https://github.com/mshumer/ai-researcher) by mshumer, used under the MIT License. See [Origin and attribution](#origin-and-attribution).
+
+The G2D cluster organized that engine around a simple idea:
 
 > Research workflows should be reproducible, inspectable, and separable by role.
 
@@ -17,7 +19,7 @@ The early cluster used a baseline engine, an active development branch, and spec
 **Status:** Public artifact / architecture snapshot  
 **Current use:** Documentation and educational reference  
 **Production status:** Not production infrastructure  
-**Origin:** G2 Researcher v1.0 lineage  
+**Origin:** G2 Researcher v1.0 lineage, forked from [mshumer/ai-researcher](https://github.com/mshumer/ai-researcher) (MIT)  
 **Maintainer:** JordanG2D / Gen 2 Dynamics
 
 This repo is intended to show lineage, design intent, and lessons learned. Current Gen 2 Dynamics work is not published here.
@@ -63,6 +65,22 @@ g2d-researcher-cluster/
 ```
 
 The component folders now include sanitized public archival source material from the original split repositories. Each folder keeps this repository's narrative `README.md`, the original source repository README as `SOURCE_README.md`, and a short `NOTES.md` describing archival context and exclusions.
+
+---
+
+## Origin and attribution
+
+The application source in `frozen-baseline/`, `dev-branch/`, `agent-b-quant-explorer/` and `agent-c-synthesis-engine/` comes from [AI Researcher](https://github.com/mshumer/ai-researcher) by mshumer. It is used under the MIT License, and each component folder keeps the original `LICENSE` with its copyright notice.
+
+Gen 2 Dynamics' contribution is:
+
+- the cluster structure: a frozen baseline, a development branch and two role-labelled variants;
+- one small patch to the engine in November 2025 (`agent.py`, `logger.py`, `main.py`: report return value, a model option, status logging);
+- this consolidation, the narrative READMEs, `NOTES.md` files and everything under `docs/` and `examples/`.
+
+The four component folders contain the same application code. The Agent B and Agent C specializations are described in their READMEs; they were not implemented as code differences.
+
+**Known issue.** The November 2025 patch left the engine working only in `--test-mode`. `_run_gemini_experiment_loop` was indented inside the Claude function, and the CLI's Claude model names (`claude-opus-4.5`, `claude-3.5-sonnet`) do not match the names the code routes on (`claude-opus-4-5`, `claude-3-5-sonnet`). The code is preserved as it was and is not maintained; use the upstream project for a working researcher.
 
 ---
 
@@ -141,6 +159,6 @@ Gen 2 Dynamics now builds Nexus, a control layer for AI agents that do accountab
 
 ## License
 
-MIT License.
+MIT License. The application source is Copyright (c) 2025 mshumer; the consolidation and documentation are Copyright (c) 2026 JordanG2D. See [`LICENSE`](LICENSE) and each component folder's `LICENSE`.
 
 This repository is shared as a public artifact and educational reference. It is not a release of current private G2D production systems.
