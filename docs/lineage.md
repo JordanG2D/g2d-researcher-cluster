@@ -6,6 +6,12 @@ The original system was not organized as one polished monorepo. It evolved throu
 
 ---
 
+## Upstream origin
+
+All four repositories began as forks of [mshumer/ai-researcher](https://github.com/mshumer/ai-researcher) (MIT), an autonomous researcher by mshumer. The G2D lineage below is how that engine was snapshotted and labelled by role; the engine itself is upstream work.
+
+---
+
 ## Original lineage
 
 ```text

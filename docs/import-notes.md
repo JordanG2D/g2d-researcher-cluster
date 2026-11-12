@@ -9,6 +9,8 @@ This note records the archival import choices for the consolidated G2 Researcher
 - `JordanG2D/G2-Researcher_v1.0_AGENT_B`
 - `JordanG2D/G2-Researcher_v1.0_AGENT_C`
 
+All four are forks of [mshumer/ai-researcher](https://github.com/mshumer/ai-researcher) (MIT). Their application code is upstream work, kept with its original `LICENSE` in each component folder.
+
 ## Import mapping
 
 - `G2-Researcher_v1.0_FROZEN` -> `frozen-baseline/`
